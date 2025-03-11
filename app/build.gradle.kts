@@ -48,7 +48,7 @@ android {
 chaquopy {
     defaultConfig {
          pip {
-             options("--extra-index-url", "https://pypi.org/simple/")
+             install("gdal")
              install("drone-flightplan")
          }
     }
